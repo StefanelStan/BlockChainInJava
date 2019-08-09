@@ -1,0 +1,13 @@
+Now we have to take care of the mining process itself:
+Miner should:
+1. Take from MemPool list of transaction
+2. Verify each of them ? Or CC provider should before it puts them to MeMPool? A: Miner has to veryfi them as it gets a list of transactions but will verify before building the merkle three 
+3. generate many hashes and merkleroot
+4. append the block to blockChain when done
+5. update the mempool
+6. update the utxo
+7. update the transactionstatus
+05/07/2018 21:38
+
+Works as intended :-) 08/07/2018 16:10
+   
